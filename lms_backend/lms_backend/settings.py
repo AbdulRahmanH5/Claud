@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-s^+4yu*^+6+h$j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['44.202.27.48', 'localhost', '127.0.0.1']
 
 # wsgi Setting
 WSGI_APPLICATION = 'lms_backend.wsgi.application'
